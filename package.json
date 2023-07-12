@@ -2,20 +2,20 @@
   "name": "forkify-project",
   "version": "1.0.0",
   "description": "Recipe application",
-  "default": "index.html",
   "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html --dist-dir ./dist"
+    "start": "parcel index.html --no-cache",
+    "build": "parcel build index.html --dist-dir ./dist --no-cache"
   },
   "author": "Mahmoud Mostafa",
   "license": "ISC",
   "dependencies": {
     "core-js": "^3.6.5",
     "fractional": "^1.0.0",
+    "fracty": "^1.0.11",
     "regenerator-runtime": "^0.13.7"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.9.3",
-    "parcel": "^2.0.0-beta.1"
+    "parcel": "^2.9.3"
   }
 }

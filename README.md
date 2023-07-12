@@ -2,4 +2,4 @@
 
 Recipe application with custom recipe uploads
 
-- [Live Demo](https://forkify-mahmoud.netlify.app/)
+- [Live Demo](https://forkify-2-mahmoud.netlify.app/)
